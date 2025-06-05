@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+/* Contenedor con clearfix */
+.contenedor::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+/* Cajas flotantes */
+.caja {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.caja img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
+
+/* Colores de fondo */
+#cajaNegra {
+    background-color: black;
+}
+
+#cajaAzul {
+    background-color: blue;
+}
+
+#cajaVerde {
+    background-color: green;
+}
+
+#cajaRoja {
+    background-color: red;
+}
